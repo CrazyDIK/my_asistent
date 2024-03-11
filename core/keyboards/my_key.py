@@ -1,7 +1,8 @@
 from aiogram.types import  ReplyKeyboardMarkup, KeyboardButton, InlineKeyboardButton, InlineKeyboardMarkup
 
 my_kb = ReplyKeyboardMarkup(keyboard=[
-    [KeyboardButton(text="MEXC")]
+    [KeyboardButton(text="MEXC"),
+     KeyboardButton(text="Weather")]
 ],resize_keyboard=True )
 
 my_kb_mexc = InlineKeyboardMarkup(inline_keyboard=[
