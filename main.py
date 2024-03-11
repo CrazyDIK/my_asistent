@@ -11,7 +11,7 @@ TOKEN = os.getenv("TOKEN")
 
 
 async def main():
-    bot = Bot(token=TOKEN)
+    bot = Bot(token=TOKEN) # type: ignore
     dp = Dispatcher()
     dp.include_routers(router)
     try:
